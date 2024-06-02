@@ -1,6 +1,6 @@
 import '../styles/header.css'
 import Palette from '../assets/icons/palette.png'
-import Search from '../assets/icons/search-icon.png'
+import Search from '../assets/icons/search.png'
 import Cart from '../assets/icons/cart.png'
 
 export default function Header() {

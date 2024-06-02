@@ -7,11 +7,12 @@
     border-bottom-color: rgb(236, 234, 234);
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    position: fixed;
+
 
     height: 125px;
     left: 0;
     right: 0;
+
 }
 
 .top-section {
