@@ -1,0 +1,34 @@
+.categories {
+
+    height: 400px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.category {
+    background-color: rgba(240, 240, 240, 100);
+    width: 200px;
+    height: 230px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: scale 0.15s;
+}
+
+.category:hover {
+    scale: 1.1;
+}
+
+.category-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.category-image {
+    width: 150px;
+}

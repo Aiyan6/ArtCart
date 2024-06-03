@@ -8,7 +8,7 @@ const slides = [
         image: Shop,
         title: 'Curators’ Picks',
         description: 'Explore exquisite art pieces on ArtCart. A curated selection awaits you.',
-        button: 'Explore'
+        button: 'Explore Collection'
     },
 
     {
@@ -22,7 +22,7 @@ const slides = [
         image: ArtInsights,
         title: 'Art Insights',
         description: 'Delve into the stories behind some of the masterpieces in our collection.',
-        button: 'Delve'
+        button: 'Read Now'
     },
 ]
 
