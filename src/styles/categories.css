@@ -5,6 +5,7 @@
     gap: 30px;
     align-items: center;
     justify-content: center;
+
 }
 
 .category {
@@ -17,6 +18,8 @@
     align-items: center;
     justify-content: center;
     transition: scale 0.15s;
+    position: relative;
+
 }
 
 .category:hover {
@@ -27,8 +30,14 @@
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 10px;
+
+    position: absolute;
+    top:30px
+  
 }
 
 .category-image {
-    width: 150px;
+    width: 100px;
+    position: absolute;
+    top: 60px;
 }

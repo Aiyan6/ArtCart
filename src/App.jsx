@@ -4,6 +4,7 @@ import Header from './components/Header'
 import ImageSlider from './components/ImageSlider'
 import Categories from './components/Categories'
 import TrendingArtworks from './components/TrendingArtworks'
+import OnSale from './components/OnSale'
 
 function App() {
   return (
@@ -11,7 +12,11 @@ function App() {
       <Header/>
       <ImageSlider/>
       <Categories/>
-      <TrendingArtworks/>
+
+      <div className='container-onsale-trendingartworks'>
+        <OnSale/>
+        <TrendingArtworks/>
+      </div>
     </>
   )
 }

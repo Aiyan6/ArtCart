@@ -48,6 +48,9 @@ export default function TrendingArtworks () {
                                     grid.map(item => (
                                         <div className='artwork'>
                                             <img src={item.image} alt="" />
+                                            <p className='artist'>{item.artist}</p>
+                                            <p className='art-title'>{item.title}</p>
+                                            <p className='price'>{item.price}</p>
                                         </div>
                                     ))
                                 }

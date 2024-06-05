@@ -8,3 +8,8 @@ body {
 p {
   margin: 0;
 }
+
+.container-onsale-trendingartworks {
+  display: flex;
+  justify-content: space-between;
+}
