@@ -7,27 +7,32 @@ import Crafts from './crafts.png'
 const categories = [
     {
         title: "Paintings",
-        image: Paintings
+        image: Paintings,
+        class: 'paintings'
     },
 
     {
         title: "Sketches",
-        image: Sketches
+        image: Sketches,
+        class: 'sketches'
     },
 
     {
         title: "Digital Art",
-        image: DigitalArt
+        image: DigitalArt,
+        class: 'digital-art'
     },
 
     {
         title: "Photography",
-        image: Photography
+        image: Photography,
+        class: 'photography'
     },
 
     {
         title: "Crafts",
-        image: Crafts
+        image: Crafts,
+        class: 'crafts'
     }
 
 

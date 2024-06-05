@@ -36,8 +36,30 @@
   
 }
 
-.category-image {
+
+.paintings, .sketches, .digital-art, .crafts, .photography {
     width: 100px;
     position: absolute;
+}
+
+.paintings {
     top: 60px;
+}
+
+.sketches {
+    top: 85px;
+}
+
+.digital-art {
+    top: 60px;
+}
+
+.photography {
+    width: 150px;
+    top: 45px;
+}
+
+.crafts {
+    width: 80px;
+    top: 90px;
 }
