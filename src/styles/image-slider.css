@@ -64,6 +64,12 @@
     font-family: Roboto;
     font-size: 18px;
     font-weight: 300;
+    transition: background-color 0.15s color 0.15s;
+}
+
+.slide-button:hover {
+    background-color: black;
+    color: white;
 }
 
 

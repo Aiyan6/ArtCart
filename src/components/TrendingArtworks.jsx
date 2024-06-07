@@ -1,6 +1,5 @@
-import Palette from '../assets/icons/palette.png'
 import LeftArrow from '../assets/icons/left-arrow.png'
-import RightArrow from '../assets/icons/right-arrow.png'
+import RightArrow from '../assets/icons/right-arrow-mirrored.png'
 import '../styles/TrendingArtworks.css'
 import { useState } from 'react'
 import trendingArtworks from '../assets/TrendingArtworks/assortment'

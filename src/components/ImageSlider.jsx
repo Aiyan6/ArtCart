@@ -1,5 +1,5 @@
 import '../styles/image-slider.css'
-import LeftArrow from '../assets/icons/left-arrow.png'
+import LeftArrow from '../assets/icons/left-arrow-mirrored.png'
 import RightArrow from '../assets/icons/right-arrow.png'
 import RadioButtonUnchecked from '../assets/icons/elipse-empty.png'
 import RadioButtonChecked from '../assets/icons/elipse-filled.png'

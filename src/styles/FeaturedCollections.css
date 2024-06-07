@@ -1,4 +1,4 @@
-hr {
+.featured-collections-break {
     width: 90%;
     background-color: rgb(219, 218, 218);
     border: none;
@@ -19,34 +19,17 @@ hr {
     color: rgb(52, 52, 52);
 }
 
-.featured-collections-nav-buttons-container {
-    display: flex;
-    align-items: center;
-    margin-right: 0px;
-    gap: 0px;
-}
-
-.featured-collections-nav-buttons-container button {
-    background-color: transparent;
-    border: none;
-}
-
-.featured-collections-nav-buttons-container button img {
-    width: 20px;
-}
-
 .collections-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     margin-top: 20px;
     margin-left: 70px;
     margin-right: 70px;
-    height: 600px;
+    min-height: 600px;
     align-items: center;
     justify-content: center;
-    column-gap: 50px;
+    column-gap: 20px;
     row-gap: 50px;
-    padding: 20px;
 }
 
 .collection-container {
@@ -54,7 +37,10 @@ hr {
     flex-direction: column;
     transition: opacity 0.15s;
     align-items: center;
+    justify-content: center;
     position: relative;
+    padding: 15px;
+    background-color: rgba(240, 240, 240, 100);
 }
 
 .collection-container button {
@@ -75,6 +61,7 @@ hr {
     width: 100%;
     height: 100%;
     transition: opacity 0.15s;
+    
 }
 
 .overlay-container:hover {
@@ -121,8 +108,9 @@ hr {
 
 .secondary-images-container {
     display: flex;
-    gap: 10px;
     margin-top: 10px;
+    justify-content: space-evenly;
+    min-width: 10px;
 }
 
 .secondary-images-container img {

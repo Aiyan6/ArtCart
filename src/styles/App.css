@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  height: 3000px;
+  height: 10000px;
 }
 
 p {
@@ -17,4 +17,8 @@ p {
 .header-slider-container {
   height: 725px;
   position: relative;
+}
+
+div {
+  margin: 0px;
 }

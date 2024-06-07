@@ -4,8 +4,8 @@ import Header from './components/Header'
 import ImageSlider from './components/ImageSlider'
 import Categories from './components/Categories'
 import TrendingArtworks from './components/TrendingArtworks'
-import OnSale from './components/OnSale'
-import FeaturedArtworks from './components/FeaturedArtworks'
+import FeaturedCollections from './components/FeaturedCollections'
+import FeaturedArtists from './components/FeaturedArtists'
 
 function App() {
   return (
@@ -22,7 +22,9 @@ function App() {
       <TrendingArtworks title = "TRENDING ARTWORKS"/>
       <TrendingArtworks title = "THE ART OF SUMMER 2024"/>
     
-      <FeaturedArtworks/>
+      <FeaturedCollections/>
+
+      <FeaturedArtists/>
 
     </>
   )
