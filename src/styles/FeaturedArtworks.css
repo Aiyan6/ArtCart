@@ -1,0 +1,132 @@
+hr {
+    width: 90%;
+    background-color: rgb(219, 218, 218);
+    border: none;
+    height: 0.5px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.featured-collections {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-collections-title {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(52, 52, 52);
+}
+
+.featured-collections-nav-buttons-container {
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    gap: 0px;
+}
+
+.featured-collections-nav-buttons-container button {
+    background-color: transparent;
+    border: none;
+}
+
+.featured-collections-nav-buttons-container button img {
+    width: 20px;
+}
+
+.collections-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 50px;
+    padding: 20px;
+}
+
+.collection-container {
+    display: flex;
+    flex-direction: column;
+    transition: opacity 0.15s;
+    align-items: center;
+    position: relative;
+}
+
+.collection-container button {
+    background-color: rgb(211, 209, 209);
+    padding: 20px 50px 20px 50px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+
+    border: none;
+
+    position: absolute;
+    top: 35%;
+    opacity: 0;
+}
+
+.overlay-container {
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.15s;
+}
+
+.overlay-container:hover {
+    opacity: 0.1;
+}
+
+.overlay-container:hover ~ .collection-title {
+    top: 10%;
+    color: black;
+}
+
+.overlay-container:hover ~ .collection-description {
+    opacity: 1;
+}
+
+.overlay-container:hover ~ .collection-button {
+    opacity: 1;
+}
+
+.collection-title {
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    transition: top 0.15s;
+}
+
+.collection-description {
+    width: 300px;
+    position: absolute;
+    top:20%;
+    opacity: 0;
+    transition: opacity 0.15s;
+    font-size: 15px;
+}
+
+.primary-image {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.secondary-images-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.secondary-images-container img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+}

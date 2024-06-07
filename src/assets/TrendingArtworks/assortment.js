@@ -71,148 +71,21 @@ const trendingArtworks = [
             title: 'Easter egg hunt',
             price: 'RS 10000'
         
-        },
+        }
 
-        {
-            image: ArtWork8,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        },
+    ],
 
-        {
-            image: ArtWork9,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        },
-
-        {
-            image: ArtWork10,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        },
-
-        {
-            image: ArtWork11,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        },
-
-        {
-            image: ArtWork12,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        },
-
-        {
-            image: ArtWork13,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        },
-
-        {
-            image: ArtWork14,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        }, 
+    [
 
         {
             image: ArtWork15,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        },
-
-        {
-            image: ArtWork16,
             artist: 'Hamza Fiaz',
             title: 'Easter egg hunt',
             price: 'RS 10000'
         
         }
-
-
-      
-    ],
-
-    [
-        {
-            image: ArtWork1,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
         
-        },
-
-        {
-            image: ArtWork2,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        },
-
-        {
-            image: ArtWork3,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        },
-
-        {
-            image: ArtWork4,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        },
-
-        {
-            image: ArtWork5,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        },
-
-        {
-            image: ArtWork6,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        }, 
-
-        {
-            image: ArtWork7,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        },
-
-        {
-            image: ArtWork8,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        },
+        ,
 
         {
             image: ArtWork9,
@@ -256,22 +129,6 @@ const trendingArtworks = [
 
         {
             image: ArtWork14,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        }, 
-
-        {
-            image: ArtWork15,
-            artist: 'Hamza Fiaz',
-            title: 'Easter egg hunt',
-            price: 'RS 10000'
-        
-        },
-
-        {
-            image: ArtWork16,
             artist: 'Hamza Fiaz',
             title: 'Easter egg hunt',
             price: 'RS 10000'
@@ -279,6 +136,7 @@ const trendingArtworks = [
         }
 
     ]
+
 ]
 
 export default trendingArtworks;

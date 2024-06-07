@@ -5,7 +5,7 @@ import '../styles/TrendingArtworks.css'
 import { useState } from 'react'
 import trendingArtworks from '../assets/TrendingArtworks/assortment'
 
-export default function TrendingArtworks () {
+export default function TrendingArtworks ({title}) {
 
     const [slideIndex, setSlideIndex] = useState(0);
 
@@ -27,19 +27,12 @@ export default function TrendingArtworks () {
     return (
         <>
             <section className='trending-artworks'>
-                <div className="section-title">
-                    <div className='section-title-content'>
-                        <img src={Palette} alt="Image of a palette"/>
-                        <p>Trending artworks</p>
-                    </div>
+
+                <p className='trending-artworks-title'>{title}</p>
+
+                <button className='trending-artworks-left-button'><img src={LeftArrow} alt="Left arrow" onClick={prevSlide} /></button>
+                <button  className='trending-artworks-right-button'><img src={RightArrow} alt="Right arrow" onClick={nextSlide} /></button>
                 
-                    <div className='section-title-buttons'>
-                        <button onClick={prevSlide}><img src={LeftArrow} alt="Left arrow" /></button>
-                        <button onClick={nextSlide}><img src={RightArrow} alt="Right arrow" /></button>      
-                    </div>
-
-                </div>
-
                 <div className='slides1'>
                     {
                         trendingArtworks.map(grid =>

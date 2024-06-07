@@ -5,18 +5,25 @@ import ImageSlider from './components/ImageSlider'
 import Categories from './components/Categories'
 import TrendingArtworks from './components/TrendingArtworks'
 import OnSale from './components/OnSale'
+import FeaturedArtworks from './components/FeaturedArtworks'
 
 function App() {
   return (
     <>
+
+
+    <div className='header-slider-container'>
       <Header/>
       <ImageSlider/>
+    </div>
+
       <Categories/>
 
-      <div className='container-onsale-trendingartworks'>
-        <OnSale/>
-        <TrendingArtworks/>
-      </div>
+      <TrendingArtworks title = "TRENDING ARTWORKS"/>
+      <TrendingArtworks title = "THE ART OF SUMMER 2024"/>
+    
+      <FeaturedArtworks/>
+
     </>
   )
 }

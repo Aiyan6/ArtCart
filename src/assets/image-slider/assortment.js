@@ -1,13 +1,13 @@
-import Shop from './shop.png'
-import NewThisWeek from './new-this-week.png'
-import ArtInsights from './art-insights.png'
+import Shop from './shop.webp'
+import NewThisWeek from './new-this-week.webp'
+import ArtInsights from './art-insights.webp'
 
 const slides = [
 
     {
         image: Shop,
         title: 'Curators’ Picks',
-        description: 'Explore exquisite art pieces on ArtCart. A curated selection awaits you.',
+        description: 'A curated selection awaits you.',
         button: 'Explore Collection'
     },
 

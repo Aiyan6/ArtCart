@@ -1,18 +1,23 @@
-.section-title {
-    display: flex;
-    height: 50px;
-    background-color: rgba(240, 240, 240, 100);
-    border-radius: 12px;
-    align-items: center;
-    justify-content: space-between;
-    gap: 15px;
-    width: 2100px;
+.trending-artworks { 
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.trending-artworks-title {
+    font-size: 20px;
+    color: rgb(52, 52, 52);
+    font-weight: 500;
+    letter-spacing: 4px;
 
 }
 
 .section-title-content {
-    display: flex;
-    align-items: center;
+    margin-left: 500px;
+    font-family: Roboto;
+
 }
 
 .section-title-buttons {
@@ -22,14 +27,25 @@
     gap: 0px;
 }
 
-.section-title-buttons button {
+.trending-artworks-left-button, .trending-artworks-right-button {
     border: none;
     background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    top: 55%;
 }
+
+.trending-artworks-left-button {
+    left: 40px;
+} 
+
+.trending-artworks-right-button {
+   right: 40px;
+} 
+
 
 .section-title-buttons button img {
     width: 20px;
-
 }
 
 .section-title img {
@@ -46,35 +62,29 @@
 .slides1 {
     display: flex;
     overflow: hidden;
-    width: 2100px;
-    min-height: 500px;
-    border-radius: 12px;
+    min-width: 10px;
+    height: 400px;
 }
 
 .slide1 {
     width: 100%;
     height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
     flex-grow: 0;
     transition: translate 0.5s ease-in-out;
-    background-color: rgba(240, 240, 240, 100);
-    margin-top: 10px;
-    border-radius: 12px;
     padding-top: 20px;
     padding-bottom: 20px;
-
-
+    gap: 30px;
 }
 
 .artwork {
-    min-width:50px;
-    min-height: 50px;
+    min-width:10px;
+    min-height: 10px;
     overflow: hidden;
     transition: scale 0.15s;
-
 }
 
 .artwork:hover {
@@ -82,15 +92,10 @@
 }
 
 .artwork img {
-
- width: 230px
-
-
+    height: 300px;
 }
 
-.trending-artworks {
-    margin-right: 50px;
-}
+
 
 .artist {
     font-size: 15px;

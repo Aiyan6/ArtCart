@@ -16,18 +16,18 @@ export default function Header() {
                     </div>
 
                     <div className='top-middle-section'>
-                        <p>Paintings</p>
-                        <p>Sketches</p>
-                        <p>Digital Art</p>
-                        <p>Photography</p>
-                        <p>Crafts</p>
+                        <p>PAINTINGS</p>
+                        <p>SKETCHES</p>
+                        <p>DIGITAL ART</p>
+                        <p>PHOTOGRAPHY</p>
+                        <p>CRAFTS</p>
                     </div>
 
                     <div className='top-right-section'>
                         <div className='top-right-left-section'>
-                            <p>Log In</p>
+                            <p>LOG IN</p>
                             <p>|</p>
-                            <p>Sign Up</p>
+                            <p>SIGN UP</p>
                         </div>
 
                         <img className='cart-icon' src={Cart} alt="Cart icon"/>

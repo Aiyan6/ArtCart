@@ -12,14 +12,21 @@ function Category({title, image, imageClass}) {
 
 export default function Categories() {
     return (
-        
-        <div className="categories">
-            {
-                categories.map(category => (
-                    <Category title={category.title} image={category.image} imageClass={category.class}/>
-                ))
-            }
-        </div>
+
+        <>
+            <p className='categories-title'>BROWSE BY CATEGORY</p>
+            
+            <div className="categories">
+                {
+                    categories.map(category => (
+                        <Category title={category.title} image={category.image} imageClass={category.class}/>
+                    ))
+                }
+            </div>
+
+        </>
     )
+
+    
 
 }

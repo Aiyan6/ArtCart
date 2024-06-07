@@ -4,16 +4,35 @@
   
     align-items: center;
 
-    border-bottom-color: rgb(236, 234, 234);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-
-
-    height: 125px;
+    height: 135px;
     left: 0;
     right: 0;
 
+    z-index: 1000;
+
+    position: absolute;
+    top: 0px;
+
+    transition: background-color 0.15s;
+
 }
+
+.header:hover {
+    background-color: white;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+    
+}
+
+.header:hover .top-middle-section p, .header:hover .top-right-section p, .header:hover .top-left-section p {
+    color: black;
+}
+
+.header:hover .top-left-section img, .header:hover .top-right-section img  {
+    filter: none
+}
+
+
 
 .top-section {
     display: flex;
@@ -24,7 +43,7 @@
 .top-left-section {
     display: flex;
     align-items: center;
-    width: 150px;
+    width: 200px;
 
 }
 
@@ -33,11 +52,14 @@
     justify-content: center;
     align-items: center;
     flex: 1;
+    color: white;
+    font-size: 13px;
     font-weight: bold;
 }
 
 .top-middle-section p {
     margin-right: 50px;
+    font-weight: 400;
 }
 
 .top-right-section {
@@ -51,10 +73,16 @@
 .top-right-left-section {
     display: flex;
     width: 150px;
+    color: white;
+    font-size: 13px;
 }
 
 .top-right-left-section p {
     margin-right: 10px;
+}
+
+.cart-icon, .palette-icon {
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(323deg) brightness(109%) contrast(100%);
 }
 
 .cart-icon {
@@ -62,14 +90,16 @@
 }
 
 .palette-icon {
-    width: 25px;
+    width: 40px;
     margin-left: 20px;
     margin-right: 10px;
+    transition: filter 0.15s;
 }
 
 .title {
-    font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
 }
 
 .bottom-section {
@@ -85,11 +115,11 @@
 
 .search-bar {
     width: 700px;
-    height: 30px;
+    height: 35px;
     justify-content: center;  border-style: solid;
-    border-width: 1px;
-    border-color: rgb(179, 177, 177);
-
+    background-color: rgba(240, 240, 240, 100);
+    border: none;
+    opacity: 0.8;
 }
 
 .search-bar::placeholder {

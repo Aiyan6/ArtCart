@@ -26,11 +26,12 @@ export default function ImageSlider() {
     }
 
     return (
-        <>
             <div className='image-slider'>
                 <div className='slides'>
                     {
                         slides.map(slide => (
+
+                            
                             <div className='slide' key={slide.image} style={{translate : `${-100 * imageIndex}%`}}>
                                 <img 
                                     src={slide.image} 
@@ -45,6 +46,8 @@ export default function ImageSlider() {
                                     </div>
                                 </div>
                             </div>
+
+                            
                             )
                         )
                     }
@@ -64,8 +67,6 @@ export default function ImageSlider() {
                     </div>
 
                 </div>
-
             </div>
-        </>
     )
 }
