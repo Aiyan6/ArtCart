@@ -89,7 +89,7 @@
     background-color: transparent;
     position: absolute;
     z-index: 1;
-    top: 55%;
+    top: 50%;
     transition: scale 0.15s
 }
 
@@ -98,13 +98,22 @@
 }
 
 .editorial-left-button {
-    left: 40px;
+    left: 600px;
 } 
 
 .editorial-right-button {
-   right: 40px;
+   right: 600px;
 } 
 
 .editorial-left-button img, .editorial-right-button img  {
     width: 30px;
+}
+
+.editorial-nav-buttons-container {
+    display: flex;
+    position: absolute;
+    top: 75%;
+    left: 48.5%;
+    z-index: 1;
+    margin-top: 80px;
 }

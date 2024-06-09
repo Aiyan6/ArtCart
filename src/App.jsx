@@ -7,6 +7,7 @@ import TrendingArtworks from './components/TrendingArtworks'
 import FeaturedCollections from './components/FeaturedCollections'
 import FeaturedArtists from './components/FeaturedArtists'
 import Editorial from './components/Editorial'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
 
       <Editorial/>
 
+      <Footer/>
+      
     </>
   )
 }

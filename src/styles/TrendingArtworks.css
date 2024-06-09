@@ -40,8 +40,8 @@
     border: none;
     background-color: transparent;
     position: absolute;
-    z-index: 1;
     top: 55%;
+    z-index: 1;
     transition: scale 0.15s
 }
 
@@ -129,4 +129,27 @@
 .price {
     font-size: 14px;
     font-weight: bold;
+}
+
+.trending-artworks-nav-buttons-container {
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 45.7%;
+    z-index: 1;
+    margin-top: 80px;
+}
+
+.trending-artworks-nav-buttons {
+    border: none;
+    background-color: transparent;
+}
+
+.line-icon {
+    width: 25px;
+    transition: 0.15s;
+}
+
+.line-icon:hover {
+    scale: 1.2;
 }

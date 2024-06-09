@@ -30,7 +30,7 @@ const featuredArtists = [
             image_2: Artist_2_2,
             image_3: Artist_2_3,
             image_4: Artist_2_4,
-            image_5: Artist_3_5
+            image_5: Artist_2_5
         },
 
         {

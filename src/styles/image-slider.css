@@ -75,7 +75,6 @@
 
 .nav-buttons-container {
     display: flex;
-    gap: 10px;
     margin-top: 30px;
     position: absolute;
     top: 90%;
@@ -88,13 +87,13 @@
     background-color: transparent;
 }
 
-.elipse-icon {
-    width: 15px;
+.image-slider-line-icon {
+    width: 20px;
     transition: 0.15s;
     filter: invert(96%) sepia(93%) saturate(22%) hue-rotate(299deg) brightness(110%) contrast(100%);
 }
 
-.elipse-icon:hover {
+.image-slider-line-icon:hover {
     scale: 1.2;
 }
 

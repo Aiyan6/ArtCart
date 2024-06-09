@@ -3,6 +3,8 @@ import { useState } from 'react'
 import editorial from '../assets/Editorial/assortment'
 import LeftArrow from '../assets/icons/left-arrow.png'
 import RightArrow from '../assets/icons/right-arrow-mirrored.png'
+import thickLine from '../assets/icons/thick-horizontal-line.png'
+import thinLine from '../assets/icons/thin-horizontal-line.png'
 
 export default function Editorial() {
 
@@ -50,6 +52,14 @@ export default function Editorial() {
 
                         )}
                 </div>
+            </div>
+
+            <div className='editorial-nav-buttons-container'>
+                        {
+                            editorial.map((_, index) => (
+                                <button className='trending-artworks-nav-buttons' onClick={ () => setEditorialIndex(index)}><img className="line-icon" src={(index === editorialIndex) ? thinLine : thickLine}/></button>
+                            ))
+                        }
             </div>
         </section>
     )

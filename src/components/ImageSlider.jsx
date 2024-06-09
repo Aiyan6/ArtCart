@@ -1,8 +1,8 @@
 import '../styles/image-slider.css'
 import LeftArrow from '../assets/icons/left-arrow-mirrored.png'
 import RightArrow from '../assets/icons/right-arrow.png'
-import RadioButtonUnchecked from '../assets/icons/elipse-empty.png'
-import RadioButtonChecked from '../assets/icons/elipse-filled.png'
+import thickLine from '../assets/icons/thick-horizontal-line.png'
+import thinLine from '../assets/icons/thin-horizontal-line.png'
 
 import slides from '../assets/image-slider/assortment.js'
 import { useState } from 'react'
@@ -61,7 +61,7 @@ export default function ImageSlider() {
                     <div className='nav-buttons-container'>
                         {
                             slides.map((_, index) => (
-                                <button className='nav-buttons' onClick={ () => setImageIndex(index)}><img className="elipse-icon" src={(index === imageIndex) ? RadioButtonChecked : RadioButtonUnchecked}/></button>
+                                <button className='nav-buttons' onClick={ () => setImageIndex(index)}><img className="image-slider-line-icon" src={(index === imageIndex) ? thinLine : thickLine}/></button>
                             ))
                         }
                     </div>

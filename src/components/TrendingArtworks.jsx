@@ -3,6 +3,8 @@ import RightArrow from '../assets/icons/right-arrow-mirrored.png'
 import '../styles/TrendingArtworks.css'
 import { useState } from 'react'
 import trendingArtworks from '../assets/TrendingArtworks/assortment'
+import thickLine from '../assets/icons/thick-horizontal-line.png'
+import thinLine from '../assets/icons/thin-horizontal-line.png'
 
 export default function TrendingArtworks ({title}) {
 
@@ -31,7 +33,7 @@ export default function TrendingArtworks ({title}) {
 
                 <button className='trending-artworks-left-button'><img src={LeftArrow} alt="Left arrow" onClick={prevSlide} /></button>
                 <button  className='trending-artworks-right-button'><img src={RightArrow} alt="Right arrow" onClick={nextSlide} /></button>
-                
+
                 <div className='slides1'>
                     {
                         trendingArtworks.map(grid =>
@@ -51,7 +53,15 @@ export default function TrendingArtworks ({title}) {
                     }
 
                 </div>
-            
+
+                <div className='trending-artworks-nav-buttons-container'>
+                        {
+                            trendingArtworks.map((_, index) => (
+                                <button className='trending-artworks-nav-buttons' onClick={ () => setSlideIndex(index)}><img className="line-icon" src={(index === slideIndex) ? thinLine : thickLine}/></button>
+                            ))
+                        }
+                </div>
+
             </section>
 
         </>
