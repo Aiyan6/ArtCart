@@ -15,21 +15,22 @@
 .featured-collections-title {
     font-size: 40px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     color: rgb(52, 52, 52);
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 .collections-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
     margin-top: 20px;
     margin-left: 70px;
     margin-right: 70px;
     min-height: 600px;
-    align-items: center;
+    width: 2000px;
+    gap: 10px;
+    margin: auto;
     justify-content: center;
-    column-gap: 20px;
-    row-gap: 50px;
 }
 
 .collection-container {
@@ -37,10 +38,10 @@
     flex-direction: column;
     transition: opacity 0.15s;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
     padding: 15px;
-    background-color: rgba(240, 240, 240, 100);
+   
 }
 
 .collection-container button {
@@ -59,9 +60,8 @@
 
 .overlay-container {
     width: 100%;
-    height: 100%;
-    transition: opacity 0.15s;
-    
+    transition: opacity 0.15s; 
+    align-items: center;
 }
 
 .overlay-container:hover {
@@ -109,8 +109,11 @@
 .secondary-images-container {
     display: flex;
     margin-top: 10px;
-    justify-content: space-evenly;
-    min-width: 10px;
+    gap: 5px;
+    justify-content: space-around;
+    min-width: 200px;
+
+    
 }
 
 .secondary-images-container img {

@@ -29,101 +29,94 @@ import SculptureSecondary2 from './sculpture-secondary-2.jpg'
 import SculptureSecondary3 from './sculpture-secondary-3.avif'
 
 const featuredCollections = [
-    {
-        title: 'Arresting Abstracts',
-        primary: AbstractPrimary,
-        secondary_1: AbstractSecondary1,
-        secondary_2: AbstractSecondary2,
-        secondary_3: AbstractSecondary3
-    },
 
-    {
-        title: 'Digital',
-        primary: DigitalArtPrimary,
-        secondary_1: DigitalArtSecondary1,
-        secondary_2: DigitalArtSecondary2,
-        secondary_3: DigitalArtSecondary3
-    },
+    [
+        {
+            title: 'Arresting Abstracts',
+            primary: AbstractPrimary,
+            secondary_1: AbstractSecondary1,
+            secondary_2: AbstractSecondary2,
+            secondary_3: AbstractSecondary3
+        },
 
-    {
-        title: 'Landscape',
-        primary: LandscapePrimary,
-        secondary_1: LandscapeSecondary1,
-        secondary_2: LandscapeSecondary2,
-        secondary_3: LandscapeSecondary3
-    },
+        {
+            title: 'Digital',
+            primary: DigitalArtPrimary,
+            secondary_1: DigitalArtSecondary1,
+            secondary_2: DigitalArtSecondary2,
+            secondary_3: DigitalArtSecondary3
+        },
 
-    {
-        title: 'Porcelain',
-        primary: PorcelainPrimary,
-        secondary_1: PorcelainSecondary1,
-        secondary_2: PorcelainSecondary2,
-        secondary_3: PorcelainSecondary3
-    },
+        {
+            title: 'Landscape',
+            primary: LandscapePrimary,
+            secondary_1: LandscapeSecondary1,
+            secondary_2: LandscapeSecondary2,
+            secondary_3: LandscapeSecondary3
+        },
 
-    {
-        title: "Realism",
-        primary: RealismPrimary,
-        secondary_1: RealismSecondary1,
-        secondary_2: RealismSecondary2,
-        secondary_3: RealismSecondary3
-    },
+        {
+            title: 'Porcelain',
+            primary: PorcelainPrimary,
+            secondary_1: PorcelainSecondary1,
+            secondary_2: PorcelainSecondary2,
+            secondary_3: PorcelainSecondary3
+        },
 
-    {
-        title: 'Sculpture',
-        primary: SculpturePrimary,
-        secondary_1: SculptureSecondary1,
-        secondary_2: SculptureSecondary2,
-        secondary_3: SculptureSecondary3
-    },
+        {
+            title: "Realism",
+            primary: RealismPrimary,
+            secondary_1: RealismSecondary1,
+            secondary_2: RealismSecondary2,
+            secondary_3: RealismSecondary3
+        }
 
-    {
-        title: 'Arresting Abstracts',
-        primary: AbstractPrimary,
-        secondary_1: AbstractSecondary1,
-        secondary_2: AbstractSecondary2,
-        secondary_3: AbstractSecondary3
-    },
+    ]
+    // ,
 
-    {
-        title: 'Digital',
-        primary: DigitalArtPrimary,
-        secondary_1: DigitalArtSecondary1,
-        secondary_2: DigitalArtSecondary2,
-        secondary_3: DigitalArtSecondary3
-    },
+    // [
 
-    {
-        title: 'Landscape',
-        primary: LandscapePrimary,
-        secondary_1: LandscapeSecondary1,
-        secondary_2: LandscapeSecondary2,
-        secondary_3: LandscapeSecondary3
-    },
+    //     {
+    //         title: 'Sculpture',
+    //         primary: SculpturePrimary,
+    //         secondary_1: SculptureSecondary1,
+    //         secondary_2: SculptureSecondary2,
+    //         secondary_3: SculptureSecondary3
+    //     },
 
-    {
-        title: 'Porcelain',
-        primary: PorcelainPrimary,
-        secondary_1: PorcelainSecondary1,
-        secondary_2: PorcelainSecondary2,
-        secondary_3: PorcelainSecondary3
-    },
+    //     {
+    //         title: 'Arresting Abstracts',
+    //         primary: AbstractPrimary,
+    //         secondary_1: AbstractSecondary1,
+    //         secondary_2: AbstractSecondary2,
+    //         secondary_3: AbstractSecondary3
+    //     },
 
-    {
-        title: "Realism",
-        primary: RealismPrimary,
-        secondary_1: RealismSecondary1,
-        secondary_2: RealismSecondary2,
-        secondary_3: RealismSecondary3
-    },
+    //     {
+    //         title: 'Digital',
+    //         primary: DigitalArtPrimary,
+    //         secondary_1: DigitalArtSecondary1,
+    //         secondary_2: DigitalArtSecondary2,
+    //         secondary_3: DigitalArtSecondary3
+    //     },
 
-    {
-        title: 'Sculpture',
-        primary: SculpturePrimary,
-        secondary_1: SculptureSecondary1,
-        secondary_2: SculptureSecondary2,
-        secondary_3: SculptureSecondary3
-    }
+    //     {
+    //         title: 'Landscape',
+    //         primary: LandscapePrimary,
+    //         secondary_1: LandscapeSecondary1,
+    //         secondary_2: LandscapeSecondary2,
+    //         secondary_3: LandscapeSecondary3
+    //     },
+
+    //     {
+    //         title: 'Porcelain',
+    //         primary: PorcelainPrimary,
+    //         secondary_1: PorcelainSecondary1,
+    //         secondary_2: PorcelainSecondary2,
+    //         secondary_3: PorcelainSecondary3
+    //     }
+    // ]
+
 ]
 
 export default featuredCollections;

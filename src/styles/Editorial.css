@@ -1,0 +1,110 @@
+.editorial-container {
+    background-color: rgba(240, 240, 240, 100);
+    height: 500px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Add this to help with absolute positioning if needed */
+}
+
+.editorial-title {
+    font-size: 34px;
+    text-align: center;
+    color: rgb(52, 52, 52);
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 40px;
+}
+
+.editorial {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%; /* Ensure it takes full width of the container */
+}
+
+.news-item {
+    width:250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+}
+
+.news-item img {
+    width: 250px;
+}
+
+.news-item h3 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    position: absolute;
+    top: 180px;
+}
+
+.news-item p {
+    margin-left: 15px;
+    margin-top: 20px;
+
+    font-weight: 100;
+    font-size: 13px;
+    color: rgb(175, 175, 175);
+
+    position: absolute;
+    bottom: 15px;
+}
+
+.editorial-slides {
+    display: flex;
+    overflow: hidden;
+    min-width: 10px;
+    height: 450px;
+}
+
+.editorial-slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+    transition: translate 0.5s ease-in-out;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 30px;
+}
+
+.editorial-left-button, .editorial-right-button {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    top: 55%;
+    transition: scale 0.15s
+}
+
+.editorial-left-button:hover, .editorial-right-button:hover {
+    scale: 1.3
+}
+
+.editorial-left-button {
+    left: 40px;
+} 
+
+.editorial-right-button {
+   right: 40px;
+} 
+
+.editorial-left-button img, .editorial-right-button img  {
+    width: 30px;
+}

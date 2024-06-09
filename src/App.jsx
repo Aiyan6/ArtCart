@@ -6,12 +6,11 @@ import Categories from './components/Categories'
 import TrendingArtworks from './components/TrendingArtworks'
 import FeaturedCollections from './components/FeaturedCollections'
 import FeaturedArtists from './components/FeaturedArtists'
+import Editorial from './components/Editorial'
 
 function App() {
   return (
     <>
-
-
     <div className='header-slider-container'>
       <Header/>
       <ImageSlider/>
@@ -25,6 +24,8 @@ function App() {
       <FeaturedCollections/>
 
       <FeaturedArtists/>
+
+      <Editorial/>
 
     </>
   )

@@ -5,8 +5,8 @@ body {
   height: 10000px;
 }
 
-p {
-  margin: 0;
+p, h3 {
+  margin: 0px;
 }
 
 .container-onsale-trendingartworks {
