@@ -1,10 +1,7 @@
-.header {
+.header-landing-page {
     display: flex;
     flex-direction: column;
-  
-    align-items: center;
 
-    height: 135px;
     left: 0;
     right: 0;
 
@@ -14,25 +11,22 @@
     top: 0px;
 
     transition: background-color 0.15s;
-
 }
 
-.header:hover {
+.header-landing-page:hover {
     background-color: white;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
     opacity: 0.9;
     
 }
 
-.header:hover .top-middle-section p, .header:hover .top-right-section p, .header:hover .top-left-section p {
+.header-landing-page:hover .top-middle-section p, .header-landing-page:hover .top-right-section p, .header-landing-page:hover .top-left-section p {
     color: black;
 }
 
-.header:hover .top-left-section img, .header:hover .top-right-section img  {
+.header-landing-page:hover .top-left-section img, .header-landing-page:hover .top-right-section img  {
     filter: none
 }
-
-
 
 .top-section {
     display: flex;
@@ -67,7 +61,6 @@
     width: 200px;
     align-items: center;
     font-weight: bold;
-
 }
 
 .top-right-left-section {
@@ -103,23 +96,38 @@
 }
 
 .bottom-section {
-    height: 700px;
-    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 100%;
+
+    margin: 0;
+    margin-top: 20px;
+    position: relative;
+
 }
 
 .search-bar-search-icon {
+    flex: 1;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    margin: 0;
+
     position: relative;
-    width: 700px;
-    margin-top: 30px;
 }
 
 .search-bar {
-    width: 700px;
-    height: 35px;
-    justify-content: center;  border-style: solid;
+    height: 30px; 
+    width: 100%;
     background-color: rgba(240, 240, 240, 100);
     border: none;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .search-bar::placeholder {
@@ -129,14 +137,53 @@
 
 .search-icon {
     width: 25px;
-    margin-left: -50px;
 
     position: absolute;
-    right: 3px;
-    top: 6px;
+    right: 6px;
+    top: 9px;
 }
 
 .right-section {
     width: 50px;
-    background-color: aqua;
+}
+
+.modal {
+    height: 50px;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+
+    top: 100px;
+
+    opacity: 0;
+}
+
+.header-other-pages {
+    display: flex;
+    flex-direction: column;
+
+    left: 0;
+    right: 0;
+
+    z-index: 1000;
+
+    position: absolute;
+    top: 0px;
+
+    background-color: white;
+    color: black;
+
+    border-bottom-style: solid;
+    border-bottom-color: rgb(190, 188, 188);
+    border-bottom-width: 1px;
+
+    height: 145px;
+}
+
+.header-other-pages p {
+    color: black;
+}
+
+.header-other-pages img {
+    filter: none;
 }

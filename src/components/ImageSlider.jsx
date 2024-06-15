@@ -38,13 +38,13 @@ export default function ImageSlider() {
                                     className='slider-image'
                                 />
 
-                                <div className='slide-content'>
+                        
                                     <div className='content'>
                                         <p className='slide-title'>{slide.title}</p>
                                         <p className='slide-description'>{slide.description}</p>
                                         <button className='slide-button'>{slide.button}</button>
                                     </div>
-                                </div>
+                         
                             </div>
 
                             

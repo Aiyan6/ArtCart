@@ -1,15 +1,15 @@
-import '../styles/header.css'
-import Palette from '../assets/icons/palette.png'
-import Search from '../assets/icons/search.png'
-import Cart from '../assets/icons/cart.png'
+import '../styles/Header.css'
+import {Palette, Cart, Search} from '../assets/icons/assortment.js'
 
-export default function Header() {
+export default function Header({isLandingPage}) {
+
+    const headerClass = isLandingPage ? "header-landing-page" : "header-other-pages";
+
     return (
         <>
-            <header className="header">
+            <header className={headerClass}>
 
                 <div className='top-section'>
-
                     <div className='top-left-section'>
                         <img className='palette-icon' src={Palette} alt="Palette icon" />
                         <p className='title'>ArtCart</p>
@@ -40,6 +40,10 @@ export default function Header() {
                         <input className='search-bar' placeholder='Search for artworks, artists, articles...' type="text" />
                         <img className='search-icon' src={Search} alt="Search icon" />
                     </div>
+                </div>
+
+                <div className='modal'>
+                    
                 </div>
             </header>
         </>

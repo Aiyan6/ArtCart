@@ -34,10 +34,10 @@ export default function TrendingArtworks ({title}) {
                 <button className='trending-artworks-left-button'><img src={LeftArrow} alt="Left arrow" onClick={prevSlide} /></button>
                 <button  className='trending-artworks-right-button'><img src={RightArrow} alt="Right arrow" onClick={nextSlide} /></button>
 
-                <div className='slides1'>
+                <div className='trending-artworks-slides'>
                     {
                         trendingArtworks.map(grid =>
-                            <div className='slide1' style={{translate : `${-100 * slideIndex}%`}}>
+                            <div className='trending-artworks-slide' style={{translate : `${-100 * slideIndex}%`}}>
                                 {
                                     grid.map(item => (
                                         <div className='artwork'>

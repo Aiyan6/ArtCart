@@ -1,0 +1,9 @@
+.container-onsale-trendingartworks {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-slider-container {
+    height: 725px;
+    position: relative;
+  }

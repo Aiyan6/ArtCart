@@ -2,22 +2,11 @@ body {
   padding: 0;
   margin: 0;
   font-family: Roboto, Arial, Helvetica, sans-serif;
+  position: relative
 }
 
-p, h3 {
+p, h3, div, label, input, span {
   margin: 0px;
 }
 
-.container-onsale-trendingartworks {
-  display: flex;
-  justify-content: space-between;
-}
 
-.header-slider-container {
-  height: 725px;
-  position: relative;
-}
-
-div {
-  margin: 0px;
-}
