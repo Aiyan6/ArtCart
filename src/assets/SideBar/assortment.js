@@ -1,7 +1,7 @@
 const checkList = [
     {
         title: 'STYLE', 
-        checkList: ['Modern', 'Abstract', 'Fine Art', 'Abstract', 'Expressionism', 'Figurative']
+        checkList: ['Modern', 'Abstract', 'Fine Art', 'Abstract', 'Expressionism', 'Figurative', 'Bulbous']
     },
 
     {
@@ -17,6 +17,12 @@ const checkList = [
     {
         title: 'MATERIAL', 
         checkList: ['Canvas', 'Paper', 'Wood', 'Cardboard', 'Soft (Yarn, Cotton, Fabric)', 'Spray Paint']
+    },
+
+    {
+        title: 'PRICE',
+        checkList: ['Under RS 5,000', 'RS 5,000 - RS 10,000', 'RS 10,000 - RS 15,000', 'RS 15,000 - RS 20,000', 'RS 20,000 - RS 25,000', 'Over RS 25,000']
+
     },
 
     {
